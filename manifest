@@ -14,27 +14,27 @@ splash_screen_hd=pkg:/images/splash_hd.jpg
 splash_screen_sd=pkg:/images/splash_sd.jpg
 splash_color=#3FA9F5
 
-ui_resolutions=hd
+ui_resolutions=hd,fhd
 
 supports_input_launch=1
 
 ' Update content feed URL
 
-FEED_URL=https://wccadev.github.io/villagestream/villagestream.json
+FEED_URL=https://wccadev.github.io/villagestream/villagestream_SG.json
 #FEED_URL=https://content.jwplatform.com/feeds/6V5vHuPm.rss
 
 ' Update theme elements                                                                             
 
 OverhangLogoUri=pkg:/images/overhang_logo.png
-#OverhangTitle=
-#OverhangTitleColor= 
+#OverhangTitle=Village Stream
+#OverhangTitleColor=#3FA9F5
 #OverhangBackgroundUri= 
 #OverhangBackgroundColor= 
 
-textColor=#ffffff
-focusRingColor=#ffffff
-progressBarColor=#ffffff
-busySpinnerColor=#ffffff
+#textColor=#ffffff
+focusRingColor=#3FA9F5
+progressBarColor=#3FA9F5
+busySpinnerColor=#3FA9F5
 
-#backgroundImageURI=
-backgroundColor=#3FA9F5
+backgroundImageURI=pkg:/images/background_image.jpg
+#backgroundColor=#3FA9F5
